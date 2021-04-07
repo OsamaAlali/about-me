@@ -3,10 +3,12 @@
 let userName = prompt('whas\'s you name Mr');
 console.log(userName);
 alert('let us ask u five qusetion Mr.' + userName);
+
 let game = prompt('do you think i like football Mr.' + userName, 'yes,y,no,n');
 game = game.toLowerCase();
 console.log(game);
 let count = 0;
+function question1(){ 
 switch (game) {
 case 'yes':
 case 'y':
@@ -20,6 +22,9 @@ case 'n':
   break;
 default: { alert('pls select yes or no '); }
 }
+}
+question1();
+
 game = prompt('do you think i like RealMadried?');
 game = game.toLowerCase();
 switch (game) {
@@ -33,8 +38,10 @@ case 'n':
   alert('thats bad');
   break;
 }
+
 game = prompt('dose team win in last 3 match?');
 game = game.toLowerCase();
+
 switch (game) {
 case 'yes':
 case 'y':
