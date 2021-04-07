@@ -44,7 +44,7 @@ question2();
 
 game = prompt('dose team win in last 3 match?');
 game = game.toLowerCase();
-
+function question3() {
 switch (game) {
 case 'yes':
 case 'y':
@@ -57,6 +57,8 @@ case 'n':
   alert('for ur info i dont like football i like ');
   break;
 }
+}
+question3();
 game = prompt('do you think i like jordan team?');
 game = game.toLowerCase();
 switch (game) {
