@@ -3,28 +3,29 @@
 let userName = prompt('whas\'s you name Mr');
 console.log(userName);
 alert('let us ask u five qusetion Mr.' + userName);
-let game = prompt('do you like football Mr.' + userName, 'yes,y,no,n');
+let game = prompt('do you think i like football Mr.' + userName, 'yes,y,no,n');
 game = game.toLowerCase();
 console.log(game);
 let count = 0;
 switch (game) {
 case 'yes':
 case 'y':
-  alert('me too i like it');
-  game = prompt('do you like RealMadried');
+  alert('..ok go for next Q');
+
   count++;
   break;
 case 'no':
 case 'n':
-  alert('ohhhh');
+  alert('ohhhh go for next Q');
   break;
 default: { alert('pls select yes or no '); }
 }
+game = prompt('do you think i like RealMadried?');
 game = game.toLowerCase();
 switch (game) {
 case 'yes':
 case 'y':
-  game = prompt('dose team win in last 3 match?');
+  alert('..ok go for next Q');
   count++;
   break;
 case 'no':
@@ -32,36 +33,40 @@ case 'n':
   alert('thats bad');
   break;
 }
+game = prompt('dose team win in last 3 match?');
 game = game.toLowerCase();
 switch (game) {
 case 'yes':
 case 'y':
   count++;
   alert('this team is great');
-  game = prompt('do you like jordan team?');
+
   break;
 case 'no':
 case 'n':
-  alert('for ur info i dont like football i like pubg  :P');
+  alert('for ur info i dont like football i like ');
   break;
 }
+game = prompt('do you think i like jordan team?');
 game = game.toLowerCase();
 switch (game) {
 case 'yes':
 case 'y':
   count++;
-  game = prompt('do you like Fasaly team?');
+
   break;
 case 'no':
 case 'n':
   alert('ooooops');
   break;
 }
+game = prompt('do you think i like Fasaly team?');
 game = game.toLowerCase();
 switch (game) {
 case 'yes':
 case 'y':
   count++;
+  alert('');
   break;
 case 'no':
 case 'n':
@@ -105,9 +110,8 @@ for (let i = 0; i <= 5; i++) {
     count++;
     alert('yahh you right');
     break;
-  }else if(i===5)
-  {
-    alert('My faverites game is'+ myArray);
+  } else if (i === 5) {
+    alert('My faverites game is' + myArray);
   }
 
 }//end forloop for 7 qusetion
