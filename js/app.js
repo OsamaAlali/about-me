@@ -96,6 +96,7 @@ document.write('Thank you Mr.' + userName);
 let myAge = 31;
 let ageInput = 0;
 alert('let us play ');
+function question6() {
 for (let a = 0; a < 4; a++) {
   ageInput = prompt('guessing my Age');
   ageInput = parseInt(ageInput);
@@ -115,6 +116,8 @@ for (let a = 0; a < 4; a++) {
       alert('MY Age is 31');
     }
   }
+}
+question6();
 
 }//end forlop for 6qusetion
 let myArray = ['tennis', 'football', 'pubg'];
