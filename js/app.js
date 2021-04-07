@@ -77,6 +77,7 @@ case 'n':
 question4();
 game = prompt('do you think i like Fasaly team?');
 game = game.toLowerCase();
+function question5() {
 switch (game) {
 case 'yes':
 case 'y':
@@ -88,6 +89,8 @@ case 'n':
   alert('oKKKKKKKK');
   break;
 }
+}
+question5();
 alert('thank you Mr.' + userName + 'for visted us you score is ' + count + '/5');
 document.write('Thank you Mr.' + userName);
 let myAge = 31;
