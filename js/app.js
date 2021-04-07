@@ -61,6 +61,7 @@ case 'n':
 question3();
 game = prompt('do you think i like jordan team?');
 game = game.toLowerCase();
+function question4() {
 switch (game) {
 case 'yes':
 case 'y':
@@ -72,6 +73,8 @@ case 'n':
   alert('ooooops');
   break;
 }
+}
+question4();
 game = prompt('do you think i like Fasaly team?');
 game = game.toLowerCase();
 switch (game) {
