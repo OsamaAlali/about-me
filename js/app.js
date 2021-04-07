@@ -123,6 +123,7 @@ question6();
 let myArray = ['tennis', 'football', 'pubg'];
 console.log(myArray);
 alert('guessing what\'s  Game i like');
+function question7() {
 
 for (let i = 0; i <= 5; i++) {
   let gameInput = prompt('guessing what\'s  Game i like its three guessing at least 1');
@@ -136,4 +137,6 @@ for (let i = 0; i <= 5; i++) {
   }
 
 }//end forloop for 7 qusetion
+}
+question7();
 alert('thank you Mr.' + userName + 'for visted us you score is ' + count + '/7');
