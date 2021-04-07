@@ -27,6 +27,7 @@ question1();
 
 game = prompt('do you think i like RealMadried?');
 game = game.toLowerCase();
+function question2(){
 switch (game) {
 case 'yes':
 case 'y':
@@ -38,6 +39,8 @@ case 'n':
   alert('thats bad');
   break;
 }
+}
+question2();
 
 game = prompt('dose team win in last 3 match?');
 game = game.toLowerCase();
