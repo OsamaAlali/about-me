@@ -4,11 +4,40 @@
 color: azure;
 
 }
-h3{
-text-align: center;
+h1{
+    margin-left: 115px;
+    color: coral;
+font-family: 'Dancing Script', cursive;
 
 }
-h4{
-margin-left:100px ;
+h3{
+    margin-left: 130px;
+    color: #389d9d;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    font-size: x-large;
+    font-style: italic;
+}
+#name{
+    margin-left: 500px;
+text-decoration-line: underline;
+text-decoration-color: burlywood;
+color: aquamarine;
+text-decoration-style: double;
+border: 9px solid seashell;
+padding: 10px;
+display: inline-block;
+ 
+}
+#ltuc{
+
+position: fixed;
+right: 100px;
+color: lightcoral;
+}
+address iframe{
+float: right;
+width: 50%;
+height: 500px;
 
 }
